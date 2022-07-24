@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Hangman</h1>
+    <p id="mistakes">MISTAKES: 0</p>
+    <p id="lives">LIVES: 6</p>
+    <div>
+        <img id="image" src="/proj6/images/0.jpg" alt="">
+    </div>
+    
+    <p>Guess the word</p>
+    <p id="hint"></p>
+    <div class="word">
+        <input id="box1" class="boxs" readonly>
+        <input id="box2" class="boxs" readonly>
+        <input id="box3" class="boxs" readonly>
+        <input id="box4" class="boxs" readonly>
+        <input id="box5" class="boxs" readonly>
+        <input id="box6" class="boxs" readonly>
+        <input id="box7" class="boxs" readonly>
+        <input id="box8" class="boxs" readonly>
+        
+    </div>
+  <br>
+    <div class="letters">
+
+        <button id="A" class="alphabets" onclick="letterHandler('A')">A</button>
+        <button id="B" class="alphabets" onclick="letterHandler('B')">B</button>
+        <button id="C" class="alphabets" onclick="letterHandler('C')">C</button>
+        <button id="D" class="alphabets" onclick="letterHandler('D')">D</button>
+        <button id="E" class="alphabets" onclick="letterHandler('E')">E</button>
+        <button id="F" class="alphabets" onclick="letterHandler('F')">F</button>
+        <button id="G" class="alphabets" onclick="letterHandler('G')">G</button>
+        <button id="H" class="alphabets" onclick="letterHandler('H')">H</button>
+        <button id="I" class="alphabets" onclick="letterHandler('I')">I</button>
+        <button id="J" class="alphabets" onclick="letterHandler('J')">J</button>
+        <button id="K" class="alphabets" onclick="letterHandler('K')">K</button>
+        <button id="L" class="alphabets" onclick="letterHandler('L')">L</button>
+        <button id="M" class="alphabets" onclick="letterHandler('M')">M</button>
+        <button id="N" class="alphabets" onclick="letterHandler('N')">N</button>
+        <button id="O" class="alphabets" onclick="letterHandler('O')">O</button>
+        <button id="P" class="alphabets" onclick="letterHandler('P')">P</button>
+        <button id="Q" class="alphabets" onclick="letterHandler('Q')">Q</button>
+        <button id="R" class="alphabets" onclick="letterHandler('R')">R</button>
+        <button id="S" class="alphabets" onclick="letterHandler('S')">S</button>
+        <button id="T" class="alphabets" onclick="letterHandler('T')">T</button>
+        <button id="U" class="alphabets" onclick="letterHandler('U')">U</button>
+        <button id="V" class="alphabets" onclick="letterHandler('V')">V</button>
+        <button id="W" class="alphabets" onclick="letterHandler('W')">W</button>
+        <button id="X" class="alphabets" onclick="letterHandler('X')">X</button>
+        <button id="Y" class="alphabets" onclick="letterHandler('Y')">Y</button>
+        <button id="Z" class="alphabets" onclick="letterHandler('Z')">Z</button>
+        </div>
+        <br>
+        <h1 id="result"></h1>
+        <button onclick="history.go(0)" class="reset">Reset</button>
+</body>
+<script src="script.js"></script>
+</html>
