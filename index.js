@@ -40,7 +40,7 @@ function letterHandler(chosenLetter) {
        document.getElementById("mistakes").innerHTML="MISTAKES: "+mistakes;
        document.getElementById("lives").innerHTML="LIVES: "+lives;
        //updating the picture
-       document.getElementById('image').src = '/proj6/images/' + mistakes +'.jpg';
+       document.getElementById('image').src = '/images/' + mistakes +'.jpg';
 
        
 
